@@ -25,6 +25,9 @@
     <ClCompile Include="source\src\input.cpp">
       <Filter>Fichiers sources\src</Filter>
     </ClCompile>
+    <ClCompile Include="source\src\sprite.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\headers\graphics.h">
@@ -36,5 +39,7 @@
     <ClInclude Include="source\headers\input.h">
       <Filter>Fichiers sources\headers</Filter>
     </ClInclude>
+    <ClInclude Include="source\headers\sprite.h" />
+    <ClInclude Include="source\headers\globals.h" />
   </ItemGroup>
 </Project>
