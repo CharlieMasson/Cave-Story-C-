@@ -5,6 +5,8 @@
 * Contient toutes les informations en raport avec les graphismes pour le jeu
 */
 
+#include <SDL.h>
+
 #include <map>
 #include <string>
 

@@ -34,6 +34,9 @@
     <ClCompile Include="source\src\player.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="source\src\level.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\headers\graphics.h">
@@ -49,5 +52,6 @@
     <ClInclude Include="source\headers\globals.h" />
     <ClInclude Include="source\headers\animatedsprite.h" />
     <ClInclude Include="source\headers\player.h" />
+    <ClInclude Include="source\headers\level.h" />
   </ItemGroup>
 </Project>
