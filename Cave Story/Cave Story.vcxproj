@@ -150,6 +150,8 @@
     <ClCompile Include="source\src\main.cpp" />
     <ClCompile Include="source\src\player.cpp" />
     <ClCompile Include="source\src\sprite.cpp" />
+    <ClCompile Include="source\src\tile.cpp" />
+    <ClCompile Include="source\src\tinyxml2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\headers\animatedsprite.h" />
@@ -160,6 +162,14 @@
     <ClInclude Include="source\headers\level.h" />
     <ClInclude Include="source\headers\player.h" />
     <ClInclude Include="source\headers\sprite.h" />
+    <ClInclude Include="source\headers\tile.h" />
+    <ClInclude Include="source\headers\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\maps\map1.tmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="content\tilesets\PrtCave.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

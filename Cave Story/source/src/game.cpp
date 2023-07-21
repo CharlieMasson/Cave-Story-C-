@@ -1,11 +1,8 @@
 #include <SDL.h>;
+
 #include "../headers/game.h";
 #include "../headers/graphics.h";
 #include "../headers/input.h";
-
-#include <iostream>;
-
-using namespace std;
 
 /* Game class
 * Contient toute les informations pour la boucle game principale
@@ -31,10 +28,9 @@ void Game::gameLoop() {
 	SDL_Event event;
 
 	this->_player = Player(graphics, 100, 100);
-	this->_level = Level("map 1", Vector2(100, 100), graphics);
+	this->_level = Level("map1", Vector2(100, 100), graphics);
 
-
-	int LAST_UPDATE_TIME = SDL_GetTicks64(); //original: SDL_GetTicks()
+	int LAST_UPDATE_TIME = SDL_GetTicks();
 	//boucle principale du jeu
 	while (true) {
 		input.beginNewFrame();
@@ -92,6 +88,6 @@ void Game::draw(Graphics& graphics) {
 }
 
 void Game::update(float elapsedTime) {
-	this->_player.update(elapsedTime);
 	this->_level.update(elapsedTime);
+	this->_player.update(elapsedTime);
 }

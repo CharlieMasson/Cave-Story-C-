@@ -12,13 +12,12 @@ public:
 	~Game();
 private:
 	void gameLoop();
-	void draw(Graphics &graphics);
+	void draw(Graphics& graphics);
 	void update(float elapsedTime);
 
 	Player _player;
 
 	Level _level;
 };
-
 
 #endif

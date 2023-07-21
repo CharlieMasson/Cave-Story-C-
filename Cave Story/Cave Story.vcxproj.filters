@@ -34,15 +34,18 @@
     <ClCompile Include="source\src\player.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="source\src\tile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
     <ClCompile Include="source\src\level.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\src\tinyxml2.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\headers\graphics.h">
-      <Filter>Fichiers sources\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="source\headers\game.h">
       <Filter>Fichiers sources\headers</Filter>
     </ClInclude>
     <ClInclude Include="source\headers\input.h">
@@ -52,6 +55,15 @@
     <ClInclude Include="source\headers\globals.h" />
     <ClInclude Include="source\headers\animatedsprite.h" />
     <ClInclude Include="source\headers\player.h" />
+    <ClInclude Include="source\headers\tile.h" />
+    <ClInclude Include="source\headers\game.h" />
     <ClInclude Include="source\headers\level.h" />
+    <ClInclude Include="source\headers\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\maps\map1.tmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="content\tilesets\PrtCave.png" />
   </ItemGroup>
 </Project>
